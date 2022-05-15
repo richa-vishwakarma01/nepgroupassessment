@@ -472,3 +472,303 @@ Closing org.springframework.context.support.GenericApplicationContext@479d31f3: 
 2022-05-12 19:21:42 Test Execution Started 
 2022-05-12 19:21:43 Test Execution Completed 
 2022-05-12 19:21:43 Closing org.springframework.context.support.GenericApplicationContext@618b19ad: startup date [Thu May 12 19:21:36 CEST 2022]; root of context hierarchy
+2022-05-12 23:26:42 Test Execution Started 
+2022-05-12 23:26:42 Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@6d5620ce, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@311bf055, org.springframework.test.context.support.DirtiesContextTestExecutionListener@642a7222]
+2022-05-12 23:26:44 Response Body : {"userId":"eb4bb93a-019d-434a-96f8-5078e1a67cd9","username":"Test111280","books":[]}
+2022-05-12 23:26:44 Test Execution Completed 
+2022-05-12 23:26:44 Closing org.springframework.context.support.GenericApplicationContext@402bba4f: startup date [Thu May 12 23:26:41 CEST 2022]; root of context hierarchy
+2022-05-12 23:40:11 Test Execution Started 
+2022-05-12 23:40:11 Request Body : {"password":"Test@08V","userName":"Test1112"}
+2022-05-12 23:40:11 Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@11392934, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@6892b3b6, org.springframework.test.context.support.DirtiesContextTestExecutionListener@6e6f2380]
+2022-05-12 23:40:13 Response Body : <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>UnsupportedMediaTypeError: unsupported charset &quot;ISO-8859-1&quot;<br> &nbsp; &nbsp;at urlencodedParser (/usr/projects/demosite/node_modules/body-parser/lib/types/urlencoded.js:108:12)<br> &nbsp; &nbsp;at Layer.handle [as handle_request] (/usr/projects/demosite/node_modules/express/lib/router/layer.js:95:5)<br> &nbsp; &nbsp;at trim_prefix (/usr/projects/demosite/node_modules/express/lib/router/index.js:317:13)<br> &nbsp; &nbsp;at /usr/projects/demosite/node_modules/express/lib/router/index.js:284:7<br> &nbsp; &nbsp;at Function.process_params (/usr/projects/demosite/node_modules/express/lib/router/index.js:335:12)<br> &nbsp; &nbsp;at next (/usr/projects/demosite/node_modules/express/lib/router/index.js:275:10)<br> &nbsp; &nbsp;at jsonParser (/usr/projects/demosite/node_modules/body-parser/lib/types/json.js:119:7)<br> &nbsp; &nbsp;at Layer.handle [as handle_request] (/usr/projects/demosite/node_modules/express/lib/router/layer.js:95:5)<br> &nbsp; &nbsp;at trim_prefix (/usr/projects/demosite/node_modules/express/lib/router/index.js:317:13)<br> &nbsp; &nbsp;at /usr/projects/demosite/node_modules/express/lib/router/index.js:284:7<br> &nbsp; &nbsp;at Function.process_params (/usr/projects/demosite/node_modules/express/lib/router/index.js:335:12)<br> &nbsp; &nbsp;at next (/usr/projects/demosite/node_modules/express/lib/router/index.js:275:10)<br> &nbsp; &nbsp;at Function.handle (/usr/projects/demosite/node_modules/express/lib/router/index.js:174:3)<br> &nbsp; &nbsp;at router (/usr/projects/demosite/node_modules/express/lib/router/index.js:47:12)<br> &nbsp; &nbsp;at Layer.handle [as handle_request] (/usr/projects/demosite/node_modules/express/lib/router/layer.js:95:5)<br> &nbsp; &nbsp;at trim_prefix (/usr/projects/demosite/node_modules/express/lib/router/index.js:317:13)<br> &nbsp; &nbsp;at /usr/projects/demosite/node_modules/express/lib/router/index.js:284:7<br> &nbsp; &nbsp;at Function.process_params (/usr/projects/demosite/node_modules/express/lib/router/index.js:335:12)<br> &nbsp; &nbsp;at next (/usr/projects/demosite/node_modules/express/lib/router/index.js:275:10)<br> &nbsp; &nbsp;at serveStatic (/usr/projects/demosite/node_modules/serve-static/index.js:75:16)<br> &nbsp; &nbsp;at Layer.handle [as handle_request] (/usr/projects/demosite/node_modules/express/lib/router/layer.js:95:5)<br> &nbsp; &nbsp;at trim_prefix (/usr/projects/demosite/node_modules/express/lib/router/index.js:317:13)</pre>
+</body>
+</html>
+
+2022-05-12 23:40:13 Test Execution Completed 
+2022-05-12 23:40:13 Closing org.springframework.context.support.GenericApplicationContext@55ca8de8: startup date [Thu May 12 23:40:10 CEST 2022]; root of context hierarchy
+2022-05-12 23:41:10 Test Execution Started 
+2022-05-12 23:41:10 Request Body : {"password":"Test@08V","userName":"Test1112RV"}
+2022-05-12 23:41:10 Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@11392934, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@6892b3b6, org.springframework.test.context.support.DirtiesContextTestExecutionListener@6e6f2380]
+2022-05-12 23:41:12 Response Body : <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>UnsupportedMediaTypeError: unsupported charset &quot;ISO-8859-1&quot;<br> &nbsp; &nbsp;at urlencodedParser (/usr/projects/demosite/node_modules/body-parser/lib/types/urlencoded.js:108:12)<br> &nbsp; &nbsp;at Layer.handle [as handle_request] (/usr/projects/demosite/node_modules/express/lib/router/layer.js:95:5)<br> &nbsp; &nbsp;at trim_prefix (/usr/projects/demosite/node_modules/express/lib/router/index.js:317:13)<br> &nbsp; &nbsp;at /usr/projects/demosite/node_modules/express/lib/router/index.js:284:7<br> &nbsp; &nbsp;at Function.process_params (/usr/projects/demosite/node_modules/express/lib/router/index.js:335:12)<br> &nbsp; &nbsp;at next (/usr/projects/demosite/node_modules/express/lib/router/index.js:275:10)<br> &nbsp; &nbsp;at jsonParser (/usr/projects/demosite/node_modules/body-parser/lib/types/json.js:119:7)<br> &nbsp; &nbsp;at Layer.handle [as handle_request] (/usr/projects/demosite/node_modules/express/lib/router/layer.js:95:5)<br> &nbsp; &nbsp;at trim_prefix (/usr/projects/demosite/node_modules/express/lib/router/index.js:317:13)<br> &nbsp; &nbsp;at /usr/projects/demosite/node_modules/express/lib/router/index.js:284:7<br> &nbsp; &nbsp;at Function.process_params (/usr/projects/demosite/node_modules/express/lib/router/index.js:335:12)<br> &nbsp; &nbsp;at next (/usr/projects/demosite/node_modules/express/lib/router/index.js:275:10)<br> &nbsp; &nbsp;at Function.handle (/usr/projects/demosite/node_modules/express/lib/router/index.js:174:3)<br> &nbsp; &nbsp;at router (/usr/projects/demosite/node_modules/express/lib/router/index.js:47:12)<br> &nbsp; &nbsp;at Layer.handle [as handle_request] (/usr/projects/demosite/node_modules/express/lib/router/layer.js:95:5)<br> &nbsp; &nbsp;at trim_prefix (/usr/projects/demosite/node_modules/express/lib/router/index.js:317:13)<br> &nbsp; &nbsp;at /usr/projects/demosite/node_modules/express/lib/router/index.js:284:7<br> &nbsp; &nbsp;at Function.process_params (/usr/projects/demosite/node_modules/express/lib/router/index.js:335:12)<br> &nbsp; &nbsp;at next (/usr/projects/demosite/node_modules/express/lib/router/index.js:275:10)<br> &nbsp; &nbsp;at serveStatic (/usr/projects/demosite/node_modules/serve-static/index.js:75:16)<br> &nbsp; &nbsp;at Layer.handle [as handle_request] (/usr/projects/demosite/node_modules/express/lib/router/layer.js:95:5)<br> &nbsp; &nbsp;at trim_prefix (/usr/projects/demosite/node_modules/express/lib/router/index.js:317:13)</pre>
+</body>
+</html>
+
+2022-05-12 23:41:12 Test Execution Completed 
+2022-05-12 23:41:12 Closing org.springframework.context.support.GenericApplicationContext@55ca8de8: startup date [Thu May 12 23:41:09 CEST 2022]; root of context hierarchy
+2022-05-12 23:42:53 Test Execution Started 
+2022-05-12 23:42:53 Request Body : {"password":"Test@08V","userName":"Test1112RV"}
+2022-05-12 23:42:53 Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@11392934, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@6892b3b6, org.springframework.test.context.support.DirtiesContextTestExecutionListener@6e6f2380]
+2022-05-12 23:42:55 Response Body : <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>UnsupportedMediaTypeError: unsupported charset &quot;ISO-8859-1&quot;<br> &nbsp; &nbsp;at urlencodedParser (/usr/projects/demosite/node_modules/body-parser/lib/types/urlencoded.js:108:12)<br> &nbsp; &nbsp;at Layer.handle [as handle_request] (/usr/projects/demosite/node_modules/express/lib/router/layer.js:95:5)<br> &nbsp; &nbsp;at trim_prefix (/usr/projects/demosite/node_modules/express/lib/router/index.js:317:13)<br> &nbsp; &nbsp;at /usr/projects/demosite/node_modules/express/lib/router/index.js:284:7<br> &nbsp; &nbsp;at Function.process_params (/usr/projects/demosite/node_modules/express/lib/router/index.js:335:12)<br> &nbsp; &nbsp;at next (/usr/projects/demosite/node_modules/express/lib/router/index.js:275:10)<br> &nbsp; &nbsp;at jsonParser (/usr/projects/demosite/node_modules/body-parser/lib/types/json.js:119:7)<br> &nbsp; &nbsp;at Layer.handle [as handle_request] (/usr/projects/demosite/node_modules/express/lib/router/layer.js:95:5)<br> &nbsp; &nbsp;at trim_prefix (/usr/projects/demosite/node_modules/express/lib/router/index.js:317:13)<br> &nbsp; &nbsp;at /usr/projects/demosite/node_modules/express/lib/router/index.js:284:7<br> &nbsp; &nbsp;at Function.process_params (/usr/projects/demosite/node_modules/express/lib/router/index.js:335:12)<br> &nbsp; &nbsp;at next (/usr/projects/demosite/node_modules/express/lib/router/index.js:275:10)<br> &nbsp; &nbsp;at Function.handle (/usr/projects/demosite/node_modules/express/lib/router/index.js:174:3)<br> &nbsp; &nbsp;at router (/usr/projects/demosite/node_modules/express/lib/router/index.js:47:12)<br> &nbsp; &nbsp;at Layer.handle [as handle_request] (/usr/projects/demosite/node_modules/express/lib/router/layer.js:95:5)<br> &nbsp; &nbsp;at trim_prefix (/usr/projects/demosite/node_modules/express/lib/router/index.js:317:13)<br> &nbsp; &nbsp;at /usr/projects/demosite/node_modules/express/lib/router/index.js:284:7<br> &nbsp; &nbsp;at Function.process_params (/usr/projects/demosite/node_modules/express/lib/router/index.js:335:12)<br> &nbsp; &nbsp;at next (/usr/projects/demosite/node_modules/express/lib/router/index.js:275:10)<br> &nbsp; &nbsp;at serveStatic (/usr/projects/demosite/node_modules/serve-static/index.js:75:16)<br> &nbsp; &nbsp;at Layer.handle [as handle_request] (/usr/projects/demosite/node_modules/express/lib/router/layer.js:95:5)<br> &nbsp; &nbsp;at trim_prefix (/usr/projects/demosite/node_modules/express/lib/router/index.js:317:13)</pre>
+</body>
+</html>
+
+2022-05-12 23:42:55 Test Execution Completed 
+2022-05-12 23:42:55 Closing org.springframework.context.support.GenericApplicationContext@55ca8de8: startup date [Thu May 12 23:42:52 CEST 2022]; root of context hierarchy
+2022-05-12 23:45:53 Test Execution Started 
+2022-05-12 23:45:53 Request Body : {"password":"Test123","userName":"Test12398"}
+2022-05-12 23:45:53 Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@11392934, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@6892b3b6, org.springframework.test.context.support.DirtiesContextTestExecutionListener@6e6f2380]
+2022-05-12 23:45:56 Response Body : <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>UnsupportedMediaTypeError: unsupported charset &quot;ISO-8859-1&quot;<br> &nbsp; &nbsp;at urlencodedParser (/usr/projects/demosite/node_modules/body-parser/lib/types/urlencoded.js:108:12)<br> &nbsp; &nbsp;at Layer.handle [as handle_request] (/usr/projects/demosite/node_modules/express/lib/router/layer.js:95:5)<br> &nbsp; &nbsp;at trim_prefix (/usr/projects/demosite/node_modules/express/lib/router/index.js:317:13)<br> &nbsp; &nbsp;at /usr/projects/demosite/node_modules/express/lib/router/index.js:284:7<br> &nbsp; &nbsp;at Function.process_params (/usr/projects/demosite/node_modules/express/lib/router/index.js:335:12)<br> &nbsp; &nbsp;at next (/usr/projects/demosite/node_modules/express/lib/router/index.js:275:10)<br> &nbsp; &nbsp;at jsonParser (/usr/projects/demosite/node_modules/body-parser/lib/types/json.js:119:7)<br> &nbsp; &nbsp;at Layer.handle [as handle_request] (/usr/projects/demosite/node_modules/express/lib/router/layer.js:95:5)<br> &nbsp; &nbsp;at trim_prefix (/usr/projects/demosite/node_modules/express/lib/router/index.js:317:13)<br> &nbsp; &nbsp;at /usr/projects/demosite/node_modules/express/lib/router/index.js:284:7<br> &nbsp; &nbsp;at Function.process_params (/usr/projects/demosite/node_modules/express/lib/router/index.js:335:12)<br> &nbsp; &nbsp;at next (/usr/projects/demosite/node_modules/express/lib/router/index.js:275:10)<br> &nbsp; &nbsp;at Function.handle (/usr/projects/demosite/node_modules/express/lib/router/index.js:174:3)<br> &nbsp; &nbsp;at router (/usr/projects/demosite/node_modules/express/lib/router/index.js:47:12)<br> &nbsp; &nbsp;at Layer.handle [as handle_request] (/usr/projects/demosite/node_modules/express/lib/router/layer.js:95:5)<br> &nbsp; &nbsp;at trim_prefix (/usr/projects/demosite/node_modules/express/lib/router/index.js:317:13)<br> &nbsp; &nbsp;at /usr/projects/demosite/node_modules/express/lib/router/index.js:284:7<br> &nbsp; &nbsp;at Function.process_params (/usr/projects/demosite/node_modules/express/lib/router/index.js:335:12)<br> &nbsp; &nbsp;at next (/usr/projects/demosite/node_modules/express/lib/router/index.js:275:10)<br> &nbsp; &nbsp;at serveStatic (/usr/projects/demosite/node_modules/serve-static/index.js:75:16)<br> &nbsp; &nbsp;at Layer.handle [as handle_request] (/usr/projects/demosite/node_modules/express/lib/router/layer.js:95:5)<br> &nbsp; &nbsp;at trim_prefix (/usr/projects/demosite/node_modules/express/lib/router/index.js:317:13)</pre>
+</body>
+</html>
+
+2022-05-12 23:45:56 Test Execution Completed 
+2022-05-12 23:45:56 Closing org.springframework.context.support.GenericApplicationContext@55ca8de8: startup date [Thu May 12 23:45:53 CEST 2022]; root of context hierarchy
+2022-05-12 23:47:19 Test Execution Started 
+2022-05-12 23:47:19 Request Body : {"password":"Test123","userName":"Test12398"}
+2022-05-12 23:47:19 Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@6d4d66d2, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@2a265ea9, org.springframework.test.context.support.DirtiesContextTestExecutionListener@11392934]
+2022-05-12 23:47:21 Response Body : {"code":"1200","message":"UserName and Password required."}
+2022-05-12 23:47:21 Test Execution Completed 
+2022-05-12 23:47:21 Closing org.springframework.context.support.GenericApplicationContext@20d3d15a: startup date [Thu May 12 23:47:18 CEST 2022]; root of context hierarchy
+2022-05-12 23:49:46 Test Execution Started 
+2022-05-12 23:49:46 Request Body : {"password":"Test@123","userName":"Test12398"}
+2022-05-12 23:49:46 Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@6d4d66d2, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@2a265ea9, org.springframework.test.context.support.DirtiesContextTestExecutionListener@11392934]
+2022-05-12 23:49:48 Response Body : {"code":"1200","message":"UserName and Password required."}
+2022-05-12 23:49:48 Test Execution Completed 
+2022-05-12 23:49:48 Closing org.springframework.context.support.GenericApplicationContext@20d3d15a: startup date [Thu May 12 23:49:45 CEST 2022]; root of context hierarchy
+2022-05-13 00:08:56 Test Execution Started 
+2022-05-13 00:08:56 Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@6d5620ce, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@311bf055, org.springframework.test.context.support.DirtiesContextTestExecutionListener@642a7222]
+2022-05-13 00:08:58 Test Execution Completed 
+2022-05-13 00:08:58 Closing org.springframework.context.support.GenericApplicationContext@402bba4f: startup date [Fri May 13 00:08:55 CEST 2022]; root of context hierarchy
+2022-05-13 00:09:56 Test Execution Started 
+2022-05-13 00:09:56 Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@6d5620ce, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@311bf055, org.springframework.test.context.support.DirtiesContextTestExecutionListener@642a7222]
+2022-05-13 00:09:57 Test Execution Completed 
+2022-05-13 00:09:58 Closing org.springframework.context.support.GenericApplicationContext@402bba4f: startup date [Fri May 13 00:09:55 CEST 2022]; root of context hierarchy
+2022-05-13 00:13:13 Test Execution Started 
+2022-05-13 00:13:13 Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@6d5620ce, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@311bf055, org.springframework.test.context.support.DirtiesContextTestExecutionListener@642a7222]
+2022-05-13 00:13:15 Test Execution Completed 
+2022-05-13 00:13:15 Closing org.springframework.context.support.GenericApplicationContext@402bba4f: startup date [Fri May 13 00:13:13 CEST 2022]; root of context hierarchy
+2022-05-13 00:17:19 Test Execution Started 
+2022-05-13 00:17:19 Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@6d5620ce, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@311bf055, org.springframework.test.context.support.DirtiesContextTestExecutionListener@642a7222]
+2022-05-13 00:17:21 Response Body : {"userId":"eb4bb93a-019d-434a-96f8-5078e1a67cd9","username":"Test111280","books":[]}
+2022-05-13 00:17:21 Test Execution Completed 
+2022-05-13 00:17:22 Closing org.springframework.context.support.GenericApplicationContext@402bba4f: startup date [Fri May 13 00:17:18 CEST 2022]; root of context hierarchy
+2022-05-13 00:17:51 Test Execution Started 
+2022-05-13 00:17:51 Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@6d5620ce, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@311bf055, org.springframework.test.context.support.DirtiesContextTestExecutionListener@642a7222]
+2022-05-13 00:17:53 Response Body : {"books":[{"isbn":"9781449325862","title":"Git Pocket Guide","subTitle":"A Working Introduction","author":"Richard E. Silverman","publish_date":"2020-06-04T08:48:39.000Z","publisher":"O'Reilly Media","pages":234,"description":"This pocket guide is the perfect on-the-job companion to Git, the distributed version control system. It provides a compact, readable introduction to Git for new users, as well as a reference to common commands and procedures for those of you with Git exp","website":"http://chimera.labs.oreilly.com/books/1230000000561/index.html"},{"isbn":"9781449331818","title":"Learning JavaScript Design Patterns","subTitle":"A JavaScript and jQuery Developer's Guide","author":"Addy Osmani","publish_date":"2020-06-04T09:11:40.000Z","publisher":"O'Reilly Media","pages":254,"description":"With Learning JavaScript Design Patterns, you'll learn how to write beautiful, structured, and maintainable JavaScript by applying classical and modern design patterns to the language. If you want to keep your code efficient, more manageable, and up-to-da","website":"http://www.addyosmani.com/resources/essentialjsdesignpatterns/book/"},{"isbn":"9781449337711","title":"Designing Evolvable Web APIs with ASP.NET","subTitle":"Harnessing the Power of the Web","author":"Glenn Block et al.","publish_date":"2020-06-04T09:12:43.000Z","publisher":"O'Reilly Media","pages":238,"description":"Design and build Web APIs for a broad range of clients—including browsers and mobile devices—that can adapt to change over time. This practical, hands-on guide takes you through the theory and tools you need to build evolvable HTTP services with Microsoft","website":"http://chimera.labs.oreilly.com/books/1234000001708/index.html"},{"isbn":"9781449365035","title":"Speaking JavaScript","subTitle":"An In-Depth Guide for Programmers","author":"Axel Rauschmayer","publish_date":"2014-02-01T00:00:00.000Z","publisher":"O'Reilly Media","pages":460,"description":"Like it or not, JavaScript is everywhere these days-from browser to server to mobile-and now you, too, need to learn the language or dive deeper than you have. This concise book guides you into and through JavaScript, written by a veteran programmer who o","website":"http://speakingjs.com/"},{"isbn":"9781491904244","title":"You Don't Know JS","subTitle":"ES6 & Beyond","author":"Kyle Simpson","publish_date":"2015-12-27T00:00:00.000Z","publisher":"O'Reilly Media","pages":278,"description":"No matter how much experience you have with JavaScript, odds are you don’t fully understand the language. As part of the \\\"You Don’t Know JS\\\" series, this compact guide focuses on new features available in ECMAScript 6 (ES6), the latest version of the st","website":"https://github.com/getify/You-Dont-Know-JS/tree/master/es6%20&%20beyond"},{"isbn":"9781491950296","title":"Programming JavaScript Applications","subTitle":"Robust Web Architecture with Node, HTML5, and Modern JS Libraries","author":"Eric Elliott","publish_date":"2014-07-01T00:00:00.000Z","publisher":"O'Reilly Media","pages":254,"description":"Take advantage of JavaScript's power to build robust web-scale or enterprise applications that are easy to extend and maintain. By applying the design patterns outlined in this practical book, experienced JavaScript developers will learn how to write flex","website":"http://chimera.labs.oreilly.com/books/1234000000262/index.html"},{"isbn":"9781593275846","title":"Eloquent JavaScript, Second Edition","subTitle":"A Modern Introduction to Programming","author":"Marijn Haverbeke","publish_date":"2014-12-14T00:00:00.000Z","publisher":"No Starch Press","pages":472,"description":"JavaScript lies at the heart of almost every modern web application, from social apps to the newest browser-based games. Though simple for beginners to pick up and play with, JavaScript is a flexible, complex language that you can use to build full-scale ","website":"http://eloquentjavascript.net/"},{"isbn":"9781593277574","title":"Understanding ECMAScript 6","subTitle":"The Definitive Guide for JavaScript Developers","author":"Nicholas C. Zakas","publish_date":"2016-09-03T00:00:00.000Z","publisher":"No Starch Press","pages":352,"description":"ECMAScript 6 represents the biggest update to the core of JavaScript in the history of the language. In Understanding ECMAScript 6, expert developer Nicholas C. Zakas provides a complete guide to the object types, syntax, and other exciting changes that E","website":"https://leanpub.com/understandinges6/read"}]}
+2022-05-13 00:17:53 Test Execution Completed 
+2022-05-13 00:17:53 Closing org.springframework.context.support.GenericApplicationContext@402bba4f: startup date [Fri May 13 00:17:50 CEST 2022]; root of context hierarchy
+2022-05-15 15:11:56 Test Execution Started 
+2022-05-15 15:11:56 Request Body : {"password":"Test@123","userName":"Test12398"}
+2022-05-15 15:11:56 Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@11392934, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@6892b3b6, org.springframework.test.context.support.DirtiesContextTestExecutionListener@6e6f2380]
+2022-05-15 15:11:59 Response Body : {"code":"1200","message":"UserName and Password required."}
+2022-05-15 15:11:59 Test Execution Completed 
+2022-05-15 15:11:59 Closing org.springframework.context.support.GenericApplicationContext@55ca8de8: startup date [Sun May 15 15:11:55 CEST 2022]; root of context hierarchy
+2022-05-15 15:13:52 Test Execution Started 
+2022-05-15 15:13:52 Request Body : {"password":"Test@123","userName":"Test12398"}
+2022-05-15 15:13:52 Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@11392934, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@6892b3b6, org.springframework.test.context.support.DirtiesContextTestExecutionListener@6e6f2380]
+2022-05-15 15:13:55 Response Body : {"userID":"0465604f-aa04-4f53-9356-550732b0dba4","username":"Test12398","books":[]}
+2022-05-15 15:13:55 Test Execution Completed 
+2022-05-15 15:13:55 Closing org.springframework.context.support.GenericApplicationContext@55ca8de8: startup date [Sun May 15 15:13:52 CEST 2022]; root of context hierarchy
+2022-05-15 15:18:39 Test Execution Started 
+2022-05-15 15:18:39 Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@6d5620ce, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@311bf055, org.springframework.test.context.support.DirtiesContextTestExecutionListener@642a7222]
+2022-05-15 15:18:41 Response Body : {"code":"1200","message":"User not authorized!"}
+2022-05-15 15:18:41 Test Execution Completed 
+2022-05-15 15:18:42 Closing org.springframework.context.support.GenericApplicationContext@402bba4f: startup date [Sun May 15 15:18:38 CEST 2022]; root of context hierarchy
+2022-05-15 15:29:27 Test Execution Started 
+2022-05-15 15:29:27 Request Body : {"password":"Test@123","userName":"Test12398"}
+2022-05-15 15:29:27 Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@2438dcd, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@24105dc5, org.springframework.test.context.support.DirtiesContextTestExecutionListener@5167f57d]
+2022-05-15 15:29:30 Response Body : {"code":"1204","message":"User exists!"}
+2022-05-15 15:29:30 Test Execution Completed 
+2022-05-15 15:29:30 Test Execution Started 
+2022-05-15 15:29:31 Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@702c436b, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@5833f5cd, org.springframework.test.context.support.DirtiesContextTestExecutionListener@10fbbdb]
+2022-05-15 15:29:31 Response Body : {"code":"1207","message":"User not found!"}
+2022-05-15 15:29:31 Test Execution Completed 
+2022-05-15 15:29:31 Closing org.springframework.context.support.GenericApplicationContext@52e6fdee: startup date [Sun May 15 15:29:27 CEST 2022]; root of context hierarchy
+2022-05-15 15:34:07 Test Execution Started 
+2022-05-15 15:34:07 Request Body : {"password":"Test@123","userName":"TestV"}
+2022-05-15 15:34:07 Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@2438dcd, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@24105dc5, org.springframework.test.context.support.DirtiesContextTestExecutionListener@5167f57d]
+2022-05-15 15:34:10 Response Body : {"userID":"e83af52f-c9dd-4794-9c92-d13d6674f5a7","username":"TestV","books":[]}
+2022-05-15 15:34:10 Test Execution Completed 
+2022-05-15 15:34:10 Test Execution Started 
+2022-05-15 15:34:11 Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@1846579f, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@6cd166b8, org.springframework.test.context.support.DirtiesContextTestExecutionListener@2650f79]
+2022-05-15 15:34:11 Response Body : {"code":"1200","message":"User not authorized!"}
+2022-05-15 15:34:11 Test Execution Completed 
+2022-05-15 15:34:12 Closing org.springframework.context.support.GenericApplicationContext@52e6fdee: startup date [Sun May 15 15:34:07 CEST 2022]; root of context hierarchy
+2022-05-15 15:43:46 Test Execution Started 
+2022-05-15 15:43:46 Request Body : {"password":"Test@123","userName":"TestV"}
+2022-05-15 15:43:46 Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@6e6f2380, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@76a4ebf2, org.springframework.test.context.support.DirtiesContextTestExecutionListener@2e8c1c9b]
+2022-05-15 15:43:49 Response Body : {"userID":"c9835a27-4b76-45a8-9694-ff2703a454bb","username":"TestV","books":[]}
+2022-05-15 15:43:49 Test Execution Completed 
+2022-05-15 15:43:49 Closing org.springframework.context.support.GenericApplicationContext@12d3a4e9: startup date [Sun May 15 15:43:46 CEST 2022]; root of context hierarchy
+2022-05-15 15:44:39 Test Execution Started 
+2022-05-15 15:44:39 Request Body : {"password":"Test@123","userName":"TestV"}
+2022-05-15 15:44:39 Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@11392934, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@6892b3b6, org.springframework.test.context.support.DirtiesContextTestExecutionListener@6e6f2380]
+2022-05-15 15:44:42 Response Body : {"userID":"823f8222-272b-403c-adf0-fe7ef7fecd69","username":"TestV","books":[]}
+2022-05-15 15:44:42 Test Execution Completed 
+2022-05-15 15:44:42 Closing org.springframework.context.support.GenericApplicationContext@55ca8de8: startup date [Sun May 15 15:44:39 CEST 2022]; root of context hierarchy
+2022-05-15 15:57:05 Test Execution Started 
+2022-05-15 15:57:05 Test Execution Completed 
+2022-05-15 15:57:05 Closing org.springframework.context.support.GenericApplicationContext@402bba4f: startup date [Sun May 15 15:57:04 CEST 2022]; root of context hierarchy
+2022-05-15 15:58:57 Test Execution Started 
+2022-05-15 15:58:57 Request Body : {"password":"Test@123","userName":"TestV"}
+2022-05-15 15:58:57 Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@2438dcd, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@24105dc5, org.springframework.test.context.support.DirtiesContextTestExecutionListener@5167f57d]
+2022-05-15 15:58:59 Response Body : {"code":"1204","message":"User exists!"}
+2022-05-15 15:58:59 Test Execution Completed 
+2022-05-15 15:58:59 Test Execution Started 
+2022-05-15 15:59:00 Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@72725ee1, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@40e60ece, org.springframework.test.context.support.DirtiesContextTestExecutionListener@3f9270ed]
+2022-05-15 15:59:01 Response Body : {"code":"1207","message":"User not found!"}
+2022-05-15 15:59:01 Test Execution Completed 
+2022-05-15 15:59:01 Closing org.springframework.context.support.GenericApplicationContext@52e6fdee: startup date [Sun May 15 15:58:57 CEST 2022]; root of context hierarchy
+2022-05-15 16:01:36 Test Execution Started 
+2022-05-15 16:01:36 Request Body : {"password":"Test@123","userName":"TestRV"}
+2022-05-15 16:01:36 Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@50f6ac94, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@6cc4cdb9, org.springframework.test.context.support.DirtiesContextTestExecutionListener@28194a50]
+2022-05-15 16:01:38 Response Body : {"userID":"9cf48bea-affb-49d9-a437-5d5f5bd999d1","username":"TestRV","books":[]}
+2022-05-15 16:01:38 Test Execution Completed 
+2022-05-15 16:01:38 Test Execution Started 
+2022-05-15 16:01:39 Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@27a2a089, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@54657dd2, org.springframework.test.context.support.DirtiesContextTestExecutionListener@706eab5d]
+2022-05-15 16:01:40 Response Body : {"code":"1200","message":"User not authorized!"}
+2022-05-15 16:01:40 Test Execution Completed 
+2022-05-15 16:01:40 Test Execution Started 
+2022-05-15 16:01:40 Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@3e15bb06, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@6778aea6, org.springframework.test.context.support.DirtiesContextTestExecutionListener@4e1ce44]
+2022-05-15 16:01:40 Test Execution Completed 
+2022-05-15 16:01:41 Closing org.springframework.context.support.GenericApplicationContext@5e0826e7: startup date [Sun May 15 16:01:35 CEST 2022]; root of context hierarchy
+2022-05-15 16:06:12 Test Execution Started 
+2022-05-15 16:06:12 Request Body : {"password":"Test@123","userName":"TestRV"}
+2022-05-15 16:06:12 Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@50029372, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@e3b3b2f, org.springframework.test.context.support.DirtiesContextTestExecutionListener@50f6ac94]
+2022-05-15 16:06:15 Response Body : {"code":"1204","message":"User exists!"}
+2022-05-15 16:06:15 Test Execution Completed 
+2022-05-15 16:06:15 Test Execution Started 
+2022-05-15 16:06:16 Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@3bfc6a5e, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@51b35e4e, org.springframework.test.context.support.DirtiesContextTestExecutionListener@abff8b7]
+2022-05-15 16:06:16 Response Body : {"code":"1207","message":"User not found!"}
+2022-05-15 16:06:16 Test Execution Completed 
+2022-05-15 16:06:16 Test Execution Started 
+2022-05-15 16:06:16 Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@150ede8b, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@161f6623, org.springframework.test.context.support.DirtiesContextTestExecutionListener@3e15bb06]
+2022-05-15 16:06:17 Test Execution Completed 
+2022-05-15 16:06:17 Closing org.springframework.context.support.GenericApplicationContext@5fdcaa40: startup date [Sun May 15 16:06:12 CEST 2022]; root of context hierarchy
+2022-05-15 16:08:12 Test Execution Started 
+2022-05-15 16:08:12 Request Body : {"password":"Test@123","userName":"TestVY"}
+2022-05-15 16:08:12 Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@50f6ac94, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@6cc4cdb9, org.springframework.test.context.support.DirtiesContextTestExecutionListener@28194a50]
+2022-05-15 16:08:14 Response Body : {"userID":"07afeb0f-38d4-43d9-bae2-8ccda621d680","username":"TestVY","books":[]}
+2022-05-15 16:08:14 Test Execution Completed 
+2022-05-15 16:08:14 Test Execution Started 
+2022-05-15 16:08:15 Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@27a2a089, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@54657dd2, org.springframework.test.context.support.DirtiesContextTestExecutionListener@706eab5d]
+2022-05-15 16:08:15 Response Body : {"userId":"07afeb0f-38d4-43d9-bae2-8ccda621d680","username":"TestVY","books":[]}
+2022-05-15 16:08:15 Test Execution Completed 
+2022-05-15 16:08:15 Test Execution Started 
+2022-05-15 16:08:15 Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@260ff5b7, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@3724b43e, org.springframework.test.context.support.DirtiesContextTestExecutionListener@77eb5790]
+2022-05-15 16:08:16 Test Execution Completed 
+2022-05-15 16:08:16 Closing org.springframework.context.support.GenericApplicationContext@5e0826e7: startup date [Sun May 15 16:08:11 CEST 2022]; root of context hierarchy
+2022-05-15 16:10:41 Test Execution Started 
+2022-05-15 16:10:41 Request Body : {"password":"Test@123","userName":"TestVY"}
+2022-05-15 16:10:41 Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@50029372, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@e3b3b2f, org.springframework.test.context.support.DirtiesContextTestExecutionListener@50f6ac94]
+2022-05-15 16:10:44 Response Body : {"userID":"5d2d12fc-d7ba-4f7b-a916-939dfbc89aa6","username":"TestVY","books":[]}
+2022-05-15 16:10:44 Test Execution Completed 
+2022-05-15 16:10:44 Test Execution Started 
+2022-05-15 16:10:45 Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@2330e3e0, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@24b4d544, org.springframework.test.context.support.DirtiesContextTestExecutionListener@27a2a089]
+2022-05-15 16:10:45 Response Body : {"userId":"5d2d12fc-d7ba-4f7b-a916-939dfbc89aa6","username":"TestVY","books":[]}
+2022-05-15 16:10:45 Test Execution Completed 
+2022-05-15 16:10:46 Test Execution Started 
+2022-05-15 16:10:46 Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@13da7ab0, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@2c8662ac, org.springframework.test.context.support.DirtiesContextTestExecutionListener@260ff5b7]
+2022-05-15 16:10:46 Test Execution Completed 
+2022-05-15 16:10:46 Closing org.springframework.context.support.GenericApplicationContext@5fdcaa40: startup date [Sun May 15 16:10:40 CEST 2022]; root of context hierarchy
+2022-05-15 16:11:20 Test Execution Started 
+2022-05-15 16:11:20 Request Body : {"password":"Test@123","userName":"TestVY"}
+2022-05-15 16:11:20 Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@50f6ac94, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@6cc4cdb9, org.springframework.test.context.support.DirtiesContextTestExecutionListener@28194a50]
+2022-05-15 16:11:22 Response Body : {"code":"1204","message":"User exists!"}
+2022-05-15 16:11:22 Test Execution Completed 
+2022-05-15 16:11:22 Test Execution Started 
+2022-05-15 16:11:23 Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@abff8b7, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@6d7cada5, org.springframework.test.context.support.DirtiesContextTestExecutionListener@350a94ce]
+2022-05-15 16:11:24 Response Body : {"code":"1207","message":"User not found!"}
+2022-05-15 16:11:24 Test Execution Completed 
+2022-05-15 16:11:24 Test Execution Started 
+2022-05-15 16:11:24 Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@3e15bb06, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@6778aea6, org.springframework.test.context.support.DirtiesContextTestExecutionListener@4e1ce44]
+2022-05-15 16:11:24 Test Execution Completed 
+2022-05-15 16:11:25 Closing org.springframework.context.support.GenericApplicationContext@5e0826e7: startup date [Sun May 15 16:11:19 CEST 2022]; root of context hierarchy
+2022-05-15 16:11:39 Test Execution Started 
+2022-05-15 16:11:39 Request Body : {"password":"Test@123","userName":"TestVY"}
+2022-05-15 16:11:39 Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@50029372, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@e3b3b2f, org.springframework.test.context.support.DirtiesContextTestExecutionListener@50f6ac94]
+2022-05-15 16:11:43 Response Body : {"code":"1204","message":"User exists!"}
+2022-05-15 16:11:43 Test Execution Completed 
+2022-05-15 16:11:43 Test Execution Started 
+2022-05-15 16:11:44 Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@3bfc6a5e, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@51b35e4e, org.springframework.test.context.support.DirtiesContextTestExecutionListener@abff8b7]
+2022-05-15 16:11:45 Response Body : {"code":"1207","message":"User not found!"}
+2022-05-15 16:11:45 Test Execution Completed 
+2022-05-15 16:11:45 Test Execution Started 
+2022-05-15 16:11:45 Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@150ede8b, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@161f6623, org.springframework.test.context.support.DirtiesContextTestExecutionListener@3e15bb06]
+2022-05-15 16:11:45 Test Execution Completed 
+2022-05-15 16:11:45 Closing org.springframework.context.support.GenericApplicationContext@5fdcaa40: startup date [Sun May 15 16:11:38 CEST 2022]; root of context hierarchy
+2022-05-15 16:55:37 Test Execution Started 
+2022-05-15 16:55:37 Request Body : {"password":"Test@123","userName":"TestTY"}
+2022-05-15 16:55:37 Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@50f6ac94, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@6cc4cdb9, org.springframework.test.context.support.DirtiesContextTestExecutionListener@28194a50]
+2022-05-15 16:55:40 Response Body : {"userID":"23d20e8f-5fe3-45cb-8250-94d2750269c8","username":"TestTY","books":[]}
+2022-05-15 16:55:40 Test Execution Completed 
+2022-05-15 16:55:40 Test Execution Started 
+2022-05-15 16:55:41 Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@27a2a089, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@54657dd2, org.springframework.test.context.support.DirtiesContextTestExecutionListener@706eab5d]
+2022-05-15 16:55:41 Response Body : {"code":"1200","message":"User not authorized!"}
+2022-05-15 16:55:41 Test Execution Completed 
+2022-05-15 16:55:41 Test Execution Started 
+2022-05-15 16:55:41 Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@3e15bb06, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@6778aea6, org.springframework.test.context.support.DirtiesContextTestExecutionListener@4e1ce44]
+2022-05-15 16:55:42 Test Execution Completed 
+2022-05-15 16:55:42 Closing org.springframework.context.support.GenericApplicationContext@5e0826e7: startup date [Sun May 15 16:55:37 CEST 2022]; root of context hierarchy
+2022-05-15 16:58:42 Test Execution Started 
+2022-05-15 16:58:42 Request Body : {"password":"Test@123","userName":"TestTT"}
+2022-05-15 16:58:42 Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@50029372, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@e3b3b2f, org.springframework.test.context.support.DirtiesContextTestExecutionListener@50f6ac94]
+2022-05-15 16:58:46 Response Body : {"userID":"cb811529-35d9-4947-af62-5e447a4541a5","username":"TestTT","books":[]}
+2022-05-15 16:58:46 Test Execution Completed 
+2022-05-15 16:58:46 Test Execution Started 
+2022-05-15 16:58:47 Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@2330e3e0, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@24b4d544, org.springframework.test.context.support.DirtiesContextTestExecutionListener@27a2a089]
+2022-05-15 16:58:48 Response Body : {"userId":"cb811529-35d9-4947-af62-5e447a4541a5","username":"TestTT","books":[]}
+2022-05-15 16:58:48 Test Execution Completed 
+2022-05-15 16:58:48 Test Execution Started 
+2022-05-15 16:58:48 Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@13da7ab0, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@2c8662ac, org.springframework.test.context.support.DirtiesContextTestExecutionListener@260ff5b7]
+2022-05-15 16:58:49 Test Execution Completed 
+2022-05-15 16:58:49 Closing org.springframework.context.support.GenericApplicationContext@5fdcaa40: startup date [Sun May 15 16:58:41 CEST 2022]; root of context hierarchy
+2022-05-15 16:59:01 Test Execution Started 
+2022-05-15 16:59:01 Request Body : {"password":"Test@123","userName":"TestTT"}
+2022-05-15 16:59:01 Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@50029372, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@e3b3b2f, org.springframework.test.context.support.DirtiesContextTestExecutionListener@50f6ac94]
+2022-05-15 16:59:03 Response Body : {"code":"1204","message":"User exists!"}
+2022-05-15 16:59:03 Test Execution Completed 
+2022-05-15 16:59:03 Test Execution Started 
+2022-05-15 16:59:04 Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@3bfc6a5e, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@51b35e4e, org.springframework.test.context.support.DirtiesContextTestExecutionListener@abff8b7]
+2022-05-15 16:59:05 Response Body : {"code":"1207","message":"User not found!"}
+2022-05-15 16:59:05 Test Execution Completed 
+2022-05-15 16:59:05 Test Execution Started 
+2022-05-15 16:59:05 Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@150ede8b, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@161f6623, org.springframework.test.context.support.DirtiesContextTestExecutionListener@3e15bb06]
+2022-05-15 16:59:05 Test Execution Completed 
+2022-05-15 16:59:06 Closing org.springframework.context.support.GenericApplicationContext@5fdcaa40: startup date [Sun May 15 16:59:00 CEST 2022]; root of context hierarchy
+2022-05-15 16:59:30 Test Execution Started 
+2022-05-15 16:59:30 Request Body : {"password":"Test@123","userName":"TestTT"}
+2022-05-15 16:59:30 Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@50029372, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@e3b3b2f, org.springframework.test.context.support.DirtiesContextTestExecutionListener@50f6ac94]
+2022-05-15 16:59:32 Response Body : {"code":"1204","message":"User exists!"}
+2022-05-15 16:59:32 Test Execution Completed 
+2022-05-15 16:59:32 Test Execution Started 
+2022-05-15 16:59:33 Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@3bfc6a5e, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@51b35e4e, org.springframework.test.context.support.DirtiesContextTestExecutionListener@abff8b7]
+2022-05-15 16:59:33 Response Body : {"code":"1207","message":"User not found!"}
+2022-05-15 16:59:33 Test Execution Completed 
+2022-05-15 16:59:33 Test Execution Started 
+2022-05-15 16:59:33 Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@150ede8b, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@161f6623, org.springframework.test.context.support.DirtiesContextTestExecutionListener@3e15bb06]
+2022-05-15 16:59:34 Test Execution Completed 
+2022-05-15 16:59:34 Closing org.springframework.context.support.GenericApplicationContext@5fdcaa40: startup date [Sun May 15 16:59:29 CEST 2022]; root of context hierarchy
+2022-05-15 16:59:59 Test Execution Started 
+2022-05-15 16:59:59 Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@5be1d0a4, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@415b0b49, org.springframework.test.context.support.DirtiesContextTestExecutionListener@6d5620ce]
+2022-05-15 17:00:02 Response Body : {"books":[{"isbn":"9781449325862","title":"Git Pocket Guide","subTitle":"A Working Introduction","author":"Richard E. Silverman","publish_date":"2020-06-04T08:48:39.000Z","publisher":"O'Reilly Media","pages":234,"description":"This pocket guide is the perfect on-the-job companion to Git, the distributed version control system. It provides a compact, readable introduction to Git for new users, as well as a reference to common commands and procedures for those of you with Git exp","website":"http://chimera.labs.oreilly.com/books/1230000000561/index.html"},{"isbn":"9781449331818","title":"Learning JavaScript Design Patterns","subTitle":"A JavaScript and jQuery Developer's Guide","author":"Addy Osmani","publish_date":"2020-06-04T09:11:40.000Z","publisher":"O'Reilly Media","pages":254,"description":"With Learning JavaScript Design Patterns, you'll learn how to write beautiful, structured, and maintainable JavaScript by applying classical and modern design patterns to the language. If you want to keep your code efficient, more manageable, and up-to-da","website":"http://www.addyosmani.com/resources/essentialjsdesignpatterns/book/"},{"isbn":"9781449337711","title":"Designing Evolvable Web APIs with ASP.NET","subTitle":"Harnessing the Power of the Web","author":"Glenn Block et al.","publish_date":"2020-06-04T09:12:43.000Z","publisher":"O'Reilly Media","pages":238,"description":"Design and build Web APIs for a broad range of clients—including browsers and mobile devices—that can adapt to change over time. This practical, hands-on guide takes you through the theory and tools you need to build evolvable HTTP services with Microsoft","website":"http://chimera.labs.oreilly.com/books/1234000001708/index.html"},{"isbn":"9781449365035","title":"Speaking JavaScript","subTitle":"An In-Depth Guide for Programmers","author":"Axel Rauschmayer","publish_date":"2014-02-01T00:00:00.000Z","publisher":"O'Reilly Media","pages":460,"description":"Like it or not, JavaScript is everywhere these days-from browser to server to mobile-and now you, too, need to learn the language or dive deeper than you have. This concise book guides you into and through JavaScript, written by a veteran programmer who o","website":"http://speakingjs.com/"},{"isbn":"9781491904244","title":"You Don't Know JS","subTitle":"ES6 & Beyond","author":"Kyle Simpson","publish_date":"2015-12-27T00:00:00.000Z","publisher":"O'Reilly Media","pages":278,"description":"No matter how much experience you have with JavaScript, odds are you don’t fully understand the language. As part of the \\\"You Don’t Know JS\\\" series, this compact guide focuses on new features available in ECMAScript 6 (ES6), the latest version of the st","website":"https://github.com/getify/You-Dont-Know-JS/tree/master/es6%20&%20beyond"},{"isbn":"9781491950296","title":"Programming JavaScript Applications","subTitle":"Robust Web Architecture with Node, HTML5, and Modern JS Libraries","author":"Eric Elliott","publish_date":"2014-07-01T00:00:00.000Z","publisher":"O'Reilly Media","pages":254,"description":"Take advantage of JavaScript's power to build robust web-scale or enterprise applications that are easy to extend and maintain. By applying the design patterns outlined in this practical book, experienced JavaScript developers will learn how to write flex","website":"http://chimera.labs.oreilly.com/books/1234000000262/index.html"},{"isbn":"9781593275846","title":"Eloquent JavaScript, Second Edition","subTitle":"A Modern Introduction to Programming","author":"Marijn Haverbeke","publish_date":"2014-12-14T00:00:00.000Z","publisher":"No Starch Press","pages":472,"description":"JavaScript lies at the heart of almost every modern web application, from social apps to the newest browser-based games. Though simple for beginners to pick up and play with, JavaScript is a flexible, complex language that you can use to build full-scale ","website":"http://eloquentjavascript.net/"},{"isbn":"9781593277574","title":"Understanding ECMAScript 6","subTitle":"The Definitive Guide for JavaScript Developers","author":"Nicholas C. Zakas","publish_date":"2016-09-03T00:00:00.000Z","publisher":"No Starch Press","pages":352,"description":"ECMAScript 6 represents the biggest update to the core of JavaScript in the history of the language. In Understanding ECMAScript 6, expert developer Nicholas C. Zakas provides a complete guide to the object types, syntax, and other exciting changes that E","website":"https://leanpub.com/understandinges6/read"}]}
+2022-05-15 17:00:02 Test Execution Completed 
+2022-05-15 17:00:02 Closing org.springframework.context.support.GenericApplicationContext@498d318c: startup date [Sun May 15 16:59:59 CEST 2022]; root of context hierarchy

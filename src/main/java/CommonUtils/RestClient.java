@@ -39,4 +39,9 @@ public class RestClient extends BaseTest {
         return this.request.patch();
 
     }
+
+    public Response deleteRequest() {
+        return this.request.delete();
+
+    }
 }

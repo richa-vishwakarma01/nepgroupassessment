@@ -3,8 +3,11 @@ package CommonUtils;
 public class Endpoints {
 
 
-    public static  final String  createUser = "/api/createAccount";
-    public static  final String  updateUser = "/api/updateAccount";
-    public static  final String  deleteUser = "/api/deleteAccount";
+    public static  final String  user = "/Account/v1/User";
+    public static  final String  getBooks = "/BookStore/v1/Books";
+
+
+    //public static  final String  updateUser = "/api/updateAccount";
+    //public static  final String  deleteUser = "/api/deleteAccount";
 
 }
