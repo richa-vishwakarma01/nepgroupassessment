@@ -5,7 +5,8 @@
         <classes>
             <class name="TestCases.createUser"/>
             <class name="TestCases.getUser"/>
-            <class name="TestCases.DeleteUser"/>
+            <class name="TestCases.GetBooks"/>
+            <class name="TestCases.Verify_Add_Books"/>
 <!--            <class name="TestCases.UpdateUser"/>-->
 <!--            <class name="TestCases.DeleteUser"/>-->
         </classes>

@@ -17,7 +17,7 @@ public class getUser extends BaseTest {
     public void verify_getUser_workflow() throws IOException {
         //String body= jsonUtils.getPayLoad("user");
         String userID =getResponseMap("createUserResponse").getBody().jsonPath().get("userID");
-        Response res= restManger.setBaseUri("BaseUri", Endpoints.user +"/"+userID).setHeaders("Authorization","Basic VGVzdFRUOlRlc3RAMTIz")
+        Response res= restManger.setBaseUri("BaseUri", Endpoints.user +"/"+userID).setHeaders("Authorization","Basic T3NsbzpUZXN0QDEyMw==")
                 .build().getRequest();
         setResponsemap("createUserResponse", res);
         Assert.assertEquals(getResponseMap("createUserResponse").getStatusCode(),200);
